@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lobster', sans-serif;
+}
+.header{
+    padding-bottom: 5px;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.header i{
+    color: gold;
+}
+#container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 2rem;
+    background-color: whitesmoke;
+}
+.cards{
+    width: 300px;
+    height: 300px;
+    border: 5px solid coral;
+    overflow: hidden;
+}
+.cards img{
+    width: 100%;
+    height: 85%;
+    transition: transform 0.3s ease;
+}
+.cards img:hover{
+    transform: scale(1.1);
+}
+#Download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    height: 25px;
+    background-color:coral;
+    border: none;
+    padding: 10px 0;
+    color: white;
+}
+#Download:hover{
+    background-color: gold;
+}
